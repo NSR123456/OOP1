@@ -20,10 +20,10 @@ public:
 int main()
 {
     int n;
-    Fibo f1;
+    Fibo obj;
     cout<<"Enter the length of fibonacci series:\n";
     cin>>n;
-         f1.Calculate(n);
+         obj.Calculate(n);
 
     return 0;
 }
